@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Lakshya Mittal">
+    <meta name="description" content="Contact The Mocha Magic">
+    <title>Contact Us</title>
+    <link rel="icon" href="images/coffee_icon.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#about">About</a>
+                </li>
+                <li>
+                    <a href="/#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="timings.html">Timings</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="images/coffee_shop_hero_image.jpg" alt="A coffee cup" title="Welcome to The Mocha Magic"
+                height="300">
+            <figcaption>Welcome to The Mocha Magic</figcaption>
+        </figure>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/post" target="_blank" method="post">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <br><br>
+
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <br><br>
+
+                    <label for="reason">Contact Reason: </label>
+                    <select name="reason" id="reason" required>
+                        <option value="" disabled selected>Select a reason</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Inquire">Inquire</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="message">Your Message</label>
+                    <br>
+                    <textarea name="message" id="message" rows="3" cols="30" placeholder="Type your message here" maxlength="500" required></textarea>
+
+                </fieldset>
+
+                <br>
+
+                <button type="reset">Reset</button>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <hr>
+        
+        <section>
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20993.915415207695!2d2.3112907395507882!3d48.872712099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f58915a5091%3A0x3ccf51c60ae858f!2sLa%20petite%20Bleue%20Brunch%20%26%20Coffee%20-%20Op%C3%A9ra!5e0!3m2!1sen!2sin!4v1725110578492!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Made with ❤️ from India</p>
+        <p>Copyright &copy; The Mocha Magic</p>
+    </footer>
+
+</body>
+
+</html>
